@@ -1,0 +1,114 @@
+/* Estilos gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #d8eaf1;
+}
+
+/*--Layout--*/
+#area-cabecalho{
+    background-color: #6788e4;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 1410px;
+    margin: 0;
+    padding: 40px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 260px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e2f4f8;
+}
+
+.conteudo-lateral{
+    background-color: #e2f4f8;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 12px;
+    padding: 5px;
+    border-bottom: 1px dotted #439df1;
+}
+
+#rodape{
+    text-align: center;
+    padding: 15px;
+    background-color: #e2f4f8;
+    clear: both; 
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #42a0f8;
+}
+
+a:hover{
+    text-decoration: none;
+}
+#area-cabecalho a{
+    color: #fff;
+    padding: 1px;
+}
+
+#area-cabecalho a:visited{
+    color: #fff;
+    padding: 12px;
+}
+#area-cabecalho a:hover{
+    color: #5596ec;
+    background-color: #fff;
+    padding: 1px;
+}
+
+h1{
+    color: #162e7a;
+    font-size: 30px;
+}
+
+h2{
+    color: #222150;
+}
+
+h3{
+    color: #565656;
+    background-color: #e2f4f8;
+    padding: 5px;
+}
+
+.branco{
+    color: #e6e6e6;
+    font-size: 38px;
+}
+
+.data-postagem{
+    font-size: 8px;
+}
